@@ -19,10 +19,8 @@ export const techStack: TechItem[] = [
   { name: "PostgreSQL", slug: "postgresql", color: "4169E1", category: "backend" },
   { name: "Snowflake", slug: "snowflake", color: "29B5E8", category: "data" },
   { name: "Apache Airflow", slug: "apacheairflow", color: "017CEE", category: "data" },
-  { name: "dbt", slug: "dbt", color: "FF694B", category: "data" },
   { name: "Pandas", slug: "pandas", color: "150458", category: "data" },
   { name: "Docker", slug: "docker", color: "2496ED", category: "devops" },
-  { name: "AWS", slug: "amazonaws", color: "FF9900", category: "devops" },
 ];
 
 export const techByCategory = {

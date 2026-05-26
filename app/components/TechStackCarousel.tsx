@@ -12,7 +12,7 @@ function TechLogoCard({ tech }: { tech: TechItem }) {
       <div className="relative flex h-12 w-12 items-center justify-center">
         <Image
           src={techLogoUrl(tech.slug, tech.color)}
-          alt=""
+          alt={`${tech.name} logo`}
           width={48}
           height={48}
           className="h-10 w-10 object-contain opacity-90 transition-opacity group-hover:opacity-100"
