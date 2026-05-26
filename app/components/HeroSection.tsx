@@ -32,14 +32,6 @@ export default function HeroSection() {
                             <span className="text-indigo-400"> Apache Airflow</span>.	
                         </p>
                     </div>
-                    <div className="flex flex-wrap justify-center gap-2 md:gap-3 mb-6 md:mb-8">
-                        <span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">React & Next.js</span>
-                        <span className="px-3 md:px-4 py-1.5 md:py-2 bg-purple-500/10 rounded-full text-purple-400 text-xs md:text-sm">TypeScript</span>
-                        <span className="px-3 md:px-4 py-1.5 md:py-2 bg-red-500/10 rounded-full text-red-400 text-xs md:text-sm">Laravel</span>
-                        <span className="px-3 md:px-4 py-1.5 md:py-2 bg-yellow-500/10 rounded-full text-yellow-400 text-xs md:text-sm">Python</span>
-                        <span className="px-3 md:px-4 py-1.5 md:py-2 bg-blue-500/10 rounded-full text-blue-400 text-xs md:text-sm">Snowflake</span>
-                        <span className="px-3 md:px-4 py-1.5 md:py-2 bg-indigo-500/10 rounded-full text-indigo-400 text-xs md:text-sm">Apache Airflow</span>
-                    </div>
                 </motion.div>
 
                 {/* Interactive System Architecture */}

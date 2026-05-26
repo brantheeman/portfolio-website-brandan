@@ -12,6 +12,21 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        marquee: "marquee var(--marquee-duration, 45s) linear infinite",
+        "marquee-reverse":
+          "marquee-reverse var(--marquee-duration, 45s) linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+        "marquee-reverse": {
+          "0%": { transform: "translateX(-50%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
     },
   },
   plugins: [],
